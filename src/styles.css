@@ -13,7 +13,7 @@ h2 {
 h1 {
   font-size: 96px;
   text-align: center;
-  margin: 0;
+  margin: 20px;
 }
 
 h3 {
@@ -34,8 +34,8 @@ h3 {
   padding: 20px;
   margin: 0px 20px;
   font-weight: 550;
-  font-size: 17px;
-  border-radius: 5px;
+  font-size: 20px;
+  border-radius: 15px;
   box-shadow: var(--box-shadow);
 }
 
@@ -45,10 +45,22 @@ h3 {
   border: solid 2px var(--primary-colour);
 }
 
+.aboutMeLink:hover {
+  color: var(--secondary-colour);
+  background: var(--primary-colour);
+  border: solid 2px var(--secondary-colour);
+}
+
 .contactMeLink {
   color: var(--secondary-colour);
   background: var(--primary-colour);
   border: solid 2px var(--secondary-colour);
+}
+
+.contactMeLink:hover {
+  color: var(--primary-colour);
+  background: var(--secondary-colour);
+  border: solid 2px var(--primary-colour);
 }
 
 .homepageLink {
@@ -76,6 +88,10 @@ h3 {
   box-shadow: var(--box-shadow);
 }
 
+.aboutText {
+  margin: 30px;
+}
+
 .emailLink {
   display: block;
   text-align: center;
@@ -97,4 +113,15 @@ h3 {
   color: var(--primary-colour);
   background: var(--secondary-colour);
   border: solid 2px var(--primary-colour);
+}
+
+.image {
+  height: 300px;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  box-shadow: var(--box-shadow);
 }
